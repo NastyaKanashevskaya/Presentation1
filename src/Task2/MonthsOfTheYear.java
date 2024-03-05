@@ -8,41 +8,17 @@ public class MonthsOfTheYear {
         System.out.print("Enter the month number: ");
         int monthNumber = in.nextInt();
         switch (monthNumber) {
-            case 1:
+            case 1,2,12:
                 System.out.println("Winter");
                 break;
-            case 2:
-                System.out.println("Winter");
-                break;
-            case 3:
+            case 3,4,5:
                 System.out.println("Spring");
                 break;
-            case 4:
-                System.out.println("Spring");
-                break;
-            case 5:
-                System.out.println("Spring");
-                break;
-            case 6:
+            case 6,7,8:
                 System.out.println("Summer");
                 break;
-            case 7:
-                System.out.println("Summer");
-                break;
-            case 8:
-                System.out.println("Summer");
-                break;
-            case 9:
+            case 9,10,11:
                 System.out.println("Fall");
-                break;
-            case 10:
-                System.out.println("Fall");
-                break;
-            case 11:
-                System.out.println("Fall");
-                break;
-            case 12:
-                System.out.println("Winter");
                 break;
             default:
                 System.out.println("Incorrect month number");
