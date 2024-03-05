@@ -11,6 +11,6 @@ public class Number1 {
         for (int i = 0; i <= num1; i++) {
             sum = sum + i;
         }
-            System.out.println(sum);
+            System.out.print(sum);
     }
 }
