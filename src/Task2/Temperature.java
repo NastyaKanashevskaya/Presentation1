@@ -8,11 +8,9 @@ public class Temperature {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter 't': ");
         int t = in.nextInt();
-        int num1 = -20;
-        int num2 = -5;
-        if (t > num2) {
+        if (t > -5) {
             System.out.println("Warm!");
-        } else if ( t > num1 & t <= num2 ) {
+        } else if ( t <=-20 && t < -5 ) {
             System.out.println("Normal!");
         } else {
             System.out.println("Cold!");
