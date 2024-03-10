@@ -8,16 +8,16 @@ public class MonthsOfTheYear {
         System.out.print("Enter the month number: ");
         int monthNumber = in.nextInt();
         switch (monthNumber) {
-            case 1,2,12:
+            case 1, 2, 12:
                 System.out.println("Winter");
                 break;
-            case 3,4,5:
+            case 3, 4, 5:
                 System.out.println("Spring");
                 break;
-            case 6,7,8:
+            case 6, 7, 8:
                 System.out.println("Summer");
                 break;
-            case 9,10,11:
+            case 9, 10, 11:
                 System.out.println("Fall");
                 break;
             default:
