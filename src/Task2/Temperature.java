@@ -10,7 +10,7 @@ public class Temperature {
         int t = in.nextInt();
         if (t > -5) {
             System.out.println("Warm!");
-        } else if ( t <=-20 && t < -5 ) {
+        } else if (t <= -20) {
             System.out.println("Normal!");
         } else {
             System.out.println("Cold!");
