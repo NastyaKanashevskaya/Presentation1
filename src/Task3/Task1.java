@@ -13,16 +13,18 @@ public class Task1 {
             System.out.print(a[i] + " ");
         }
         System.out.println();
-        System.out.println("Enter the number: ");
+        System.out.print("Enter the number: ");
         int num = sc.nextInt();
+        boolean incl = false;
         for (int i : a) {
-            if (num == a[i]) {
+            if (num == i) {
+                incl = true;
                 System.out.println("Number is included in array");
                 break;
-            } else {
-                System.out.println("Number is not included in array");
-                break;
             }
+            System.out.println("Number is not included in array");
+            break;
         }
     }
 }
+
