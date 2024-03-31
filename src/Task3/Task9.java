@@ -1,6 +1,8 @@
 package Task3;
+
 import java.util.Random;
 import java.util.Scanner;
+
 public class Task9 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -13,6 +15,7 @@ public class Task9 {
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
                 array[i][j] = num.nextInt();
+                System.out.println(array[i][j]);
             }
         }
         int n = array.length;
